@@ -23,7 +23,7 @@ services:
       - DATABASE_PASSWORD=postgres
       - DATABASE_SYNCHRONIZE=true
       - API_PORT=3000
-      - API_HOST=https://keen-concha-e5eb85.netlify.app/api/v0
+      - API_HOST=https://keen-concha-e5eb85.netlify.app/api
     ports:
       - '3000:3000'
     restart: always
